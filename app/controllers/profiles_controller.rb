@@ -1,4 +1,4 @@
-class ProfilesController < ApplicationRecord
+class ProfilesController < ApplicationController
   
   # When a user makes a get request to /users/:user_id/profile/new
   def new
